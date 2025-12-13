@@ -69,7 +69,7 @@ What did you do for it? How would you rate your own effort? 1-5. (I will agree o
 
 5 
 
-
+&nbsp;
 
 I really like how the game turned out. Buttons make mechanical sounds when they are activated and deactivated, You make sounds when you jump, the boxes in the game make noises and change the volume of the sound depending on the collision force. The UI and screen transitions  blend nicely together. You have a trail which adds double satisfaction points. I can go on
 
