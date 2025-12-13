@@ -188,6 +188,10 @@ PrefabInstance:
       propertyPath: collisionMask.m_Bits
       value: 265
       objectReference: {fileID: 0}
+    - target: {fileID: 4649571603064272036, guid: a6127ec91f377b44e813abf0b2d74f18, type: 3}
+      propertyPath: finalBlitToCameraTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5295794773692220647, guid: a6127ec91f377b44e813abf0b2d74f18, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.82
@@ -265,7 +269,8 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"nextScene","value":{"$content":"12","$type":"System.String"},"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3892061206399269045, guid: a6127ec91f377b44e813abf0b2d74f18, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

@@ -240,7 +240,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 469358085026900981, guid: a6127ec91f377b44e813abf0b2d74f18, type: 3}
       propertyPath: defaultWidth
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 985876583556629968, guid: a6127ec91f377b44e813abf0b2d74f18, type: 3}
       propertyPath: collisionMask.m_Bits
