@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 [RequireComponent (typeof (Controller2D))]
 public class Player : MonoBehaviour {
@@ -74,6 +75,7 @@ public class Player : MonoBehaviour {
 			}
 		}
 		if (controller.collisions.below) {
+			CustomEvent.Trigger(gameObject, "Jumped");
 			if (controller.collisions.slidingDownMaxSlope) {
 				if (directionalInput.x != -Mathf.Sign (controller.collisions.slopeNormal.x)) { // not jumping against max slope
 					velocity.y = maxJumpVelocity * controller.collisions.slopeNormal.y;
@@ -83,6 +85,7 @@ public class Player : MonoBehaviour {
 				velocity.y = maxJumpVelocity;
 			}
 		}
+		
 	}
 
 	public void OnJumpInputUp() {
