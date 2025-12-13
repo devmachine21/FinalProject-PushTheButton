@@ -60,7 +60,7 @@ Everything else is made by me.
 
 What is your special focus?
 
-Polish
+Polish!
 
 
 What did you do for it? How would you rate your own effort? 1-5. (I will agree or disagree with this sentiment, but I want to know what you thought)
