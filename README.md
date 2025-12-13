@@ -37,7 +37,7 @@ Honestly did not struggle with much. Outside of keeping track of time, I think t
 Features
 
 * Character controller
-* Button pressing action
+* Button pressing action 
 * Sounds!
 * Music!
 * UI with animations
@@ -75,7 +75,7 @@ I really like how the game turned out. Buttons make mechanical sounds when they 
 
 
 
-Point is, I worked hard to make the game feel REALLY good. I like it, I enjoy it. So much so that after it. I am putting this on itch.io because it is a GREAT portfolio piece! PUSHING BUTTONS IS FUN? NO WAY!!!
+The Point is, I worked hard to make the game feel REALLY good. I like it, I enjoy it. So much so that after it. I am putting this on itch.io because it is a GREAT portfolio piece! PUSHING BUTTONS IS FUN? NO WAY!!!
 
 
 
