@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6210804096674182421}
   - component: {fileID: 3862816069719859823}
   - component: {fileID: 799195295617365257}
+  - component: {fileID: 3068780911874409237}
+  - component: {fileID: 4618549452770740520}
   m_Layer: 8
   m_Name: Box
   m_TagString: Box
@@ -97,10 +99,10 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 3
-  m_LinearDrag: 0.96
-  m_AngularDrag: 1.56
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 0.08
+  m_AngularDrag: 0.15
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -158,3 +160,42 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3068780911874409237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5089739750213250164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"soundEffects","value":{"$content":[0,1,2,3,4],"$type":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: f0a9b12a029efdd4097b3ab3496a1b01, type: 3}
+    - {fileID: 8300000, guid: 28067ae488f89db4882109e1a0c3bfae, type: 3}
+    - {fileID: 8300000, guid: be9992e43c8b05843bb2e473c1e1853a, type: 3}
+    - {fileID: 8300000, guid: b5def3aa0d8d3e7419a2b2f5896634c7, type: 3}
+    - {fileID: 8300000, guid: 2cf1cc7fec3d4dd46b752d633f6df3c7, type: 3}
+--- !u!114 &4618549452770740520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5089739750213250164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: cf1ac564f6b94124595b9aefd3804641, type: 2}
